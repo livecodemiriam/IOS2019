@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RestaurantDemo' do
+pod 'SwiftRangeSlider'
+pod 'Realm'
+pod 'RealmSwift'
+end
