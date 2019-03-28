@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  gitTest_Miriam
+//  TODORequest
 //
-//  Created by Student on 27/02/2019.
-//  Copyright © 2019 Student. All rights reserved.
+//  Created by Miriam Costan on 27/03/2019.
+//  Copyright © 2019 Miriam Costan. All rights reserved.
 //
 
 import UIKit

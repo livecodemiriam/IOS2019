@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FEA37312226656A00FA2EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA37302226656A00FA2EB1 /* AppDelegate.swift */; };
-		3FEA37332226656A00FA2EB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA37322226656A00FA2EB1 /* ViewController.swift */; };
-		3FEA37362226656A00FA2EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA37342226656A00FA2EB1 /* Main.storyboard */; };
-		3FEA37382226656B00FA2EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA37372226656B00FA2EB1 /* Assets.xcassets */; };
-		3FEA373B2226656B00FA2EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA37392226656B00FA2EB1 /* LaunchScreen.storyboard */; };
+		5360A262224AE080006DB14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5360A261224AE080006DB14B /* AppDelegate.swift */; };
+		5360A264224AE080006DB14B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5360A263224AE080006DB14B /* ViewController.swift */; };
+		5360A267224AE080006DB14B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5360A265224AE080006DB14B /* Main.storyboard */; };
+		5360A269224AE081006DB14B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5360A268224AE081006DB14B /* Assets.xcassets */; };
+		5360A26C224AE081006DB14B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5360A26A224AE081006DB14B /* LaunchScreen.storyboard */; };
+		5360A274224AE16C006DB14B /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5360A273224AE16C006DB14B /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FEA372D2226656A00FA2EB1 /* gitTest_Miriam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest_Miriam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FEA37302226656A00FA2EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FEA37322226656A00FA2EB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FEA37352226656A00FA2EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FEA37372226656B00FA2EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FEA373A2226656B00FA2EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3FEA373C2226656B00FA2EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5360A25E224AE080006DB14B /* TODORequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODORequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5360A261224AE080006DB14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5360A263224AE080006DB14B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5360A266224AE080006DB14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5360A268224AE081006DB14B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5360A26B224AE081006DB14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5360A26D224AE081006DB14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5360A273224AE16C006DB14B /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FEA372A2226656A00FA2EB1 /* Frameworks */ = {
+		5360A25B224AE080006DB14B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FEA37242226656900FA2EB1 = {
+		5360A255224AE080006DB14B = {
 			isa = PBXGroup;
 			children = (
-				3FEA372F2226656A00FA2EB1 /* gitTest_Miriam */,
-				3FEA372E2226656A00FA2EB1 /* Products */,
+				5360A260224AE080006DB14B /* TODORequest */,
+				5360A25F224AE080006DB14B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3FEA372E2226656A00FA2EB1 /* Products */ = {
+		5360A25F224AE080006DB14B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FEA372D2226656A00FA2EB1 /* gitTest_Miriam.app */,
+				5360A25E224AE080006DB14B /* TODORequest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FEA372F2226656A00FA2EB1 /* gitTest_Miriam */ = {
+		5360A260224AE080006DB14B /* TODORequest */ = {
 			isa = PBXGroup;
 			children = (
-				3FEA37302226656A00FA2EB1 /* AppDelegate.swift */,
-				3FEA37322226656A00FA2EB1 /* ViewController.swift */,
-				3FEA37342226656A00FA2EB1 /* Main.storyboard */,
-				3FEA37372226656B00FA2EB1 /* Assets.xcassets */,
-				3FEA37392226656B00FA2EB1 /* LaunchScreen.storyboard */,
-				3FEA373C2226656B00FA2EB1 /* Info.plist */,
+				5360A261224AE080006DB14B /* AppDelegate.swift */,
+				5360A263224AE080006DB14B /* ViewController.swift */,
+				5360A273224AE16C006DB14B /* Todo.swift */,
+				5360A265224AE080006DB14B /* Main.storyboard */,
+				5360A268224AE081006DB14B /* Assets.xcassets */,
+				5360A26A224AE081006DB14B /* LaunchScreen.storyboard */,
+				5360A26D224AE081006DB14B /* Info.plist */,
 			);
-			path = gitTest_Miriam;
+			path = TODORequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FEA372C2226656A00FA2EB1 /* gitTest_Miriam */ = {
+		5360A25D224AE080006DB14B /* TODORequest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FEA373F2226656B00FA2EB1 /* Build configuration list for PBXNativeTarget "gitTest_Miriam" */;
+			buildConfigurationList = 5360A270224AE081006DB14B /* Build configuration list for PBXNativeTarget "TODORequest" */;
 			buildPhases = (
-				3FEA37292226656A00FA2EB1 /* Sources */,
-				3FEA372A2226656A00FA2EB1 /* Frameworks */,
-				3FEA372B2226656A00FA2EB1 /* Resources */,
+				5360A25A224AE080006DB14B /* Sources */,
+				5360A25B224AE080006DB14B /* Frameworks */,
+				5360A25C224AE080006DB14B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = gitTest_Miriam;
-			productName = gitTest_Miriam;
-			productReference = 3FEA372D2226656A00FA2EB1 /* gitTest_Miriam.app */;
+			name = TODORequest;
+			productName = TODORequest;
+			productReference = 5360A25E224AE080006DB14B /* TODORequest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3FEA37252226656900FA2EB1 /* Project object */ = {
+		5360A256224AE080006DB14B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = Student;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Miriam Costan";
 				TargetAttributes = {
-					3FEA372C2226656A00FA2EB1 = {
-						CreatedOnToolsVersion = 10.1;
+					5360A25D224AE080006DB14B = {
+						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = 3FEA37282226656A00FA2EB1 /* Build configuration list for PBXProject "gitTest_Miriam" */;
+			buildConfigurationList = 5360A259224AE080006DB14B /* Build configuration list for PBXProject "TODORequest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 3FEA37242226656900FA2EB1;
-			productRefGroup = 3FEA372E2226656A00FA2EB1 /* Products */;
+			mainGroup = 5360A255224AE080006DB14B;
+			productRefGroup = 5360A25F224AE080006DB14B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FEA372C2226656A00FA2EB1 /* gitTest_Miriam */,
+				5360A25D224AE080006DB14B /* TODORequest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FEA372B2226656A00FA2EB1 /* Resources */ = {
+		5360A25C224AE080006DB14B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FEA373B2226656B00FA2EB1 /* LaunchScreen.storyboard in Resources */,
-				3FEA37382226656B00FA2EB1 /* Assets.xcassets in Resources */,
-				3FEA37362226656A00FA2EB1 /* Main.storyboard in Resources */,
+				5360A26C224AE081006DB14B /* LaunchScreen.storyboard in Resources */,
+				5360A269224AE081006DB14B /* Assets.xcassets in Resources */,
+				5360A267224AE080006DB14B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FEA37292226656A00FA2EB1 /* Sources */ = {
+		5360A25A224AE080006DB14B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FEA37332226656A00FA2EB1 /* ViewController.swift in Sources */,
-				3FEA37312226656A00FA2EB1 /* AppDelegate.swift in Sources */,
+				5360A264224AE080006DB14B /* ViewController.swift in Sources */,
+				5360A274224AE16C006DB14B /* Todo.swift in Sources */,
+				5360A262224AE080006DB14B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3FEA37342226656A00FA2EB1 /* Main.storyboard */ = {
+		5360A265224AE080006DB14B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FEA37352226656A00FA2EB1 /* Base */,
+				5360A266224AE080006DB14B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3FEA37392226656B00FA2EB1 /* LaunchScreen.storyboard */ = {
+		5360A26A224AE081006DB14B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FEA373A2226656B00FA2EB1 /* Base */,
+				5360A26B224AE081006DB14B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3FEA373D2226656B00FA2EB1 /* Debug */ = {
+		5360A26E224AE081006DB14B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -223,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		3FEA373E2226656B00FA2EB1 /* Release */ = {
+		5360A26F224AE081006DB14B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -278,36 +282,38 @@
 			};
 			name = Release;
 		};
-		3FEA37402226656B00FA2EB1 /* Debug */ = {
+		5360A271224AE081006DB14B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = gitTest_Miriam/Info.plist;
+				DEVELOPMENT_TEAM = VUY83CZH85;
+				INFOPLIST_FILE = TODORequest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nn.gitTest-Miriam";
+				PRODUCT_BUNDLE_IDENTIFIER = Miriam.TODORequest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3FEA37412226656B00FA2EB1 /* Release */ = {
+		5360A272224AE081006DB14B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = gitTest_Miriam/Info.plist;
+				DEVELOPMENT_TEAM = VUY83CZH85;
+				INFOPLIST_FILE = TODORequest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "nn.gitTest-Miriam";
+				PRODUCT_BUNDLE_IDENTIFIER = Miriam.TODORequest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -315,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FEA37282226656A00FA2EB1 /* Build configuration list for PBXProject "gitTest_Miriam" */ = {
+		5360A259224AE080006DB14B /* Build configuration list for PBXProject "TODORequest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FEA373D2226656B00FA2EB1 /* Debug */,
-				3FEA373E2226656B00FA2EB1 /* Release */,
+				5360A26E224AE081006DB14B /* Debug */,
+				5360A26F224AE081006DB14B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FEA373F2226656B00FA2EB1 /* Build configuration list for PBXNativeTarget "gitTest_Miriam" */ = {
+		5360A270224AE081006DB14B /* Build configuration list for PBXNativeTarget "TODORequest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FEA37402226656B00FA2EB1 /* Debug */,
-				3FEA37412226656B00FA2EB1 /* Release */,
+				5360A271224AE081006DB14B /* Debug */,
+				5360A272224AE081006DB14B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3FEA37252226656900FA2EB1 /* Project object */;
+	rootObject = 5360A256224AE080006DB14B /* Project object */;
 }
