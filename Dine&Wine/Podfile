@@ -1,0 +1,7 @@
+use_frameworks!
+target 'Dine&Wine' do
+pod 'SAConfettiView'
+pod 'Realm'
+pod 'RealmSwift'
+pod 'Alamofire' '~> 5.0.0-beta.5'
+end

@@ -1,0 +1,6 @@
+framework module Pods_Dine_Wine {
+  umbrella header "Pods-Dine&Wine-umbrella.h"
+
+  export *
+  module * { export * }
+}
