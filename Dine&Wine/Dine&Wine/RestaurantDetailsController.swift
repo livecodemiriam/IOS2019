@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class RestauranDetailsController: UIViewController {
     var restaurantId: Int!
@@ -16,6 +17,8 @@ class RestauranDetailsController: UIViewController {
     @IBOutlet weak var restaurantLocation: UILabel!
     
     var location: Address?
+    var name: String?
+    var res_url: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,9 +27,11 @@ class RestauranDetailsController: UIViewController {
             if let res = res {
                 self.location = res.location
                 self.restaurantName.text = res.name
+                self.name = res.name
                 self.restaurantRating.text = "Rating: " + (res.userRating?.rating ?? "No ratings yet")
                 self.restaurantCost.text = (res.cuisines ?? "No data yet")
                 self.restaurantLocation.text = res.location?.address
+                self.res_url = res.url
             } else {
                 let notification = UIAlertController(title: "Error", message: "Cannot complete search at this time. Please try again.", preferredStyle: .alert)
                 let action = UIAlertAction(title: "OK", style: .default, handler: { (action) in
@@ -55,5 +60,19 @@ class RestauranDetailsController: UIViewController {
         let reviewsController = storyboard?.instantiateViewController(withIdentifier: "reviews") as! ReviewsController
         reviewsController.resId = restaurantId
         present(reviewsController, animated: true, completion: nil)
+    }
+    @IBAction func pressedOnShare(_ sender: Any) {
+        let activityItem = "Check out this restaurant I found: " + name!
+        
+        let activityViewController : UIActivityViewController = UIActivityViewController(activityItems: [activityItem], applicationActivities: nil)
+        
+        self.present(activityViewController, animated: true, completion: nil)
+    }
+    @IBAction func pressedOnSafari(_ sender: Any) {
+        let url = URL(string: res_url!)
+        
+        let safariView: SFSafariViewController = SFSafariViewController(url: url!)
+        
+        self.present(safariView, animated: true, completion: nil)
     }
 }

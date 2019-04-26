@@ -45,6 +45,7 @@ struct Restaurant: Decodable {
     let cuisines: String?
     let location: Address?
     let userRating: UserRating?
+    let url: String?
     
     private enum RestaurantCodingKeys: String, CodingKey {
         case id
@@ -52,6 +53,7 @@ struct Restaurant: Decodable {
         case cuisines
         case location
         case userRating = "user_rating"
+        case url
     }
     
     init(from decoder: Decoder) throws {
@@ -61,6 +63,7 @@ struct Restaurant: Decodable {
         cuisines = try values.decode(String.self, forKey: .cuisines)
         location = try values.decode(Address.self, forKey: .location)
         userRating = try values.decode(UserRating.self, forKey: .userRating)
+        url = try values.decode(String.self, forKey: .url)
         
     }
 }

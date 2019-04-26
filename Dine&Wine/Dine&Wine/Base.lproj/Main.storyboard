@@ -210,6 +210,22 @@
                                     <action selector="pressedOnReviews:" destination="UdU-XS-xK4" eventType="touchUpInside" id="RRx-xZ-9Qn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqJ-7k-RQA">
+                                <rect key="frame" x="16" y="329" width="163" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Share with your friends "/>
+                                <connections>
+                                    <action selector="pressedOnShare:" destination="UdU-XS-xK4" eventType="touchUpInside" id="90V-W7-KWE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lix-TF-PNc">
+                                <rect key="frame" x="223" y="329" width="150" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to restaurant page"/>
+                                <connections>
+                                    <action selector="pressedOnSafari:" destination="UdU-XS-xK4" eventType="touchUpInside" id="pYp-mm-3yg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -302,7 +318,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZJ-oC-Y2P">
-                                                    <rect key="frame" x="159" y="11" width="235" height="106"/>
+                                                    <rect key="frame" x="159" y="10.666666666666664" width="235" height="106.33333333333334"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
